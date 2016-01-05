@@ -53,6 +53,7 @@
           el.innerHTML = data.contents;
           var videoURL = $(el).find('.twitter-timeline-link').attr('data-expanded-url');
         	// console.log(videoURL);
+        	console.log(videoURL.length)
           $("#result-url").html("" + videoURL);
           $("#visit-link").attr('href', videoURL);
           $("#result-holder").show();
